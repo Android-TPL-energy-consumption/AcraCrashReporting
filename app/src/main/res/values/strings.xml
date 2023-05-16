@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CrashReportingTemplate</string>
+    <string name="button">Click me!</string>
+</resources>
