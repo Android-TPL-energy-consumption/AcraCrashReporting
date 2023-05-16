@@ -1,7 +1,7 @@
-# CrashReportingTemplate
+# AcraCrashReporting
 
 This is a minimal application, only featuring an activity with a single button. It is meant to be
-cloned to study energy consumption of crash-reporting third-party libraries.
+cloned to study ACRA energy consumption.
 
 ## Scenario
 

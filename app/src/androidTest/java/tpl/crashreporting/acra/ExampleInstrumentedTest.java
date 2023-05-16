@@ -1,4 +1,4 @@
-package tpl.crashreporting.template;
+package tpl.crashreporting.acra;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("tpl.crashreporting.template", appContext.getPackageName());
+        assertEquals("tpl.crashreporting.acra", appContext.getPackageName());
     }
 }

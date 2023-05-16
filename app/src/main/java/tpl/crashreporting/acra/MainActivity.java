@@ -1,4 +1,4 @@
-package tpl.crashreporting.template;
+package tpl.crashreporting.acra;
 
 import androidx.appcompat.app.AppCompatActivity;
 

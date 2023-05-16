@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PACKAGE="tpl.crashreporting.template"
-ACTIVITY="tpl.crashreporting.template.MainActivity"
+PACKAGE="tpl.crashreporting.acra"
+ACTIVITY="tpl.crashreporting.acra.MainActivity"
 
 # Launch app
 adb shell am start -n $PACKAGE/$ACTIVITY
