@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(android.view.View view) {
-        // TODO crash the app here
+        throw new RuntimeException("Test crash");
     }
 }
