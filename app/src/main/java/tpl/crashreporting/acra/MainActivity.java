@@ -6,7 +6,6 @@ import android.os.Bundle;
 
 import org.acra.ACRA;
 import org.acra.config.CoreConfigurationBuilder;
-import org.acra.config.HttpSenderConfiguration;
 import org.acra.config.HttpSenderConfigurationBuilder;
 import org.acra.data.StringFormat;
 
@@ -21,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
                 //core configuration:
                 .withBuildConfigClass(BuildConfig.class)
                 .withReportFormat(StringFormat.JSON)
+                .withPluginConfigurations(
+                        new HttpSenderConfigurationBuilder()
+                                .withUri("https://your.server.com/report")
+                                .build()
+                )
         );
-
-        HttpSenderConfiguration endpoint = new HttpSenderConfigurationBuilder()
-                .withUri("https://your.server.com/report")
-                .build();
-        System.out.println(endpoint.enabled());
     }
 
     public void onButtonClick(android.view.View view) {
